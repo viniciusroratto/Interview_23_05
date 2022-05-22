@@ -1,5 +1,3 @@
--- VINICIUS RORATTO CARVALH0 -- 160094
--- EX16
 
 --drop table if exists Matriculas;
 --drop table if exists Alunos;
@@ -75,14 +73,23 @@ NATURAL JOIN Alunos
 NATURAL JOIN Disciplinas
 NATURAL JOIN Cursos;
 
--- Questão 1
--- Considerando a professora tereza, o número de suas disciplinas (i.e. disciplinas sob sua
+-- Question 1
+-- Considering professor Tereza, show the number of courses (disciplinas), the total of credits on her courses,
+-- and the average of credits. 
+
+
+-- Considerando a professora tereza,  o número de suas disciplinas (i.e. disciplinas sob sua
 --responsabilidade), o total de créditos de suas disciplinas, e a média de créditos de suas
 --disciplinas
 
 select professor, count(codd) as TotDisciplinas, sum(creditos) as TotCreditos, avg(creditos) as medCreditos from Disciplinas
 group by professor
 having professor = 'tereza';
+
+
+-- Question 2
+-- For each professor, show the professors name, the number of courses it teaches, the sum of its credits.
+-- the average of credits. Order the professors by name.
 
 -- Questão 2
 -- Para cada professor, o nome do professor, o número de disciplinas que ministra, o total de
@@ -97,14 +104,20 @@ order by professor;
 --Para o conjunto das disciplinas de cálculo (ex: calculo I, calculo I, calculo numerico, etc), o
 --número de disciplinas e de professores
 
+-- Question 3
+-- for the set of calculus courses (Cálculo in portuguese), show the number of courses and number of speakers (professores).
+
 select count(distinct codd) as TotDisciplinas, count(distinct professor) as totprofessores from Disciplinas
 where nomed like 'calculo%';
                                                    
                         
--- questao 4
---Para cada professor, mostrar seu nome, o número de disciplinas sob sua responsabilidade
---(mesmo que não existam alunos matriculados nelas), número total de matriculas nestas
---disciplinas, e número total alunos (distintos) envolvidos (ordenar por nome de professor)
+
+
+
+-- Question 4
+-- For each professor, show its name, the total of courses under its responsability,
+-- the number of enrolled students , and the total number of different students enrolled. Order it by professor's name.
+
 
 SELECT professor, count(Disciplinas.codd) as NroDisciplinas, count(coda) as NroMatriculas, count(distinct coda) as Alunos FROM Disciplinas
 LEFT JOIN Matriculas ON Disciplinas.codd = Matriculas.codd
@@ -113,8 +126,10 @@ ORDER BY professor
 
 
 -- questao 5
---Para a aluna de nome maria, o numero de matriculas, notas mínima/máxima/média, e
---número de distintos professores que tem.
+
+-- For each student named Maria, the number of courses enrolled, its min/max/average marks
+-- and the number of different professors she is studing under.
+
 
 SELECT nomea as Nome, count(codd), max(nota) as max, min(nota) min, count(distinct professor) from Alunos
 NATURAL JOIN Matriculas
@@ -123,6 +138,12 @@ GROUP BY nomea
 HAVING nomea = 'maria';
 
 -- questao 6
+
+
+-- For each student of the cic course (computer science/ Ciência da Computação), show its average marks,
+-- the number of different professors it studied under, the number of courses enrolled, its average mark.
+
+
 --Para cada aluno do curso cic, seu nome, o número de disciplinas na qual se matriculou, sua
 -- nota média, e o número de professores que teve
 
@@ -133,14 +154,22 @@ GROUP BY nomea, codc
 HAVING codc = 1;
 
 -- questao 7
+
+-- Students(by name) that always had marks greater or equal to 8.
+
 -- O nome dos alunos que sempre tiveram no mínimo nota 8 nas disciplinas nas quais se
--- matricularam ;
+-- matricularam;
+
 SELECT distinct nomea as Nome from Alunos
 NATURAL JOIN Matriculas
 NATURAL JOIN Disciplinas
 WHERE nota > 8
 
 -- questao 8
+
+-- Consider courses with for credits or more, the name of the professor, the course, but with the smaller grade being 
+-- no lesser than four, and the average mark of 8,5 or higher.
+
 --Considerando apenas disciplinas de 4 créditos ou mais, o nome do professor e da disciplina,
 --desde a nota mínima dos alunos matriculados tenha 7 ou superior, e a média, 8,5 ou
 --superior
@@ -150,6 +179,8 @@ GROUP BY professor, nomed, creditos, nota
 having creditos >= 4 and nota >= 7 and avg(nota) >= 8.5;
 
 -- Questão 9
+-- Show the courses with at least 3 students (alunos)
+
 -- O nome das disciplinas com pelo menos 3 alunos matriculados
 SELECT nomed as Disciplinas FROM disciplinas
 NATURAL JOIN Matriculas
@@ -160,6 +191,9 @@ having count(distinct coda) >= 3;
 
 
 -- Questão 10
+-- Show studant's (by name) that never repetead a grade on a course and show what courses they have finished.
+
+
 --  O nome dos alunos que nunca tiraram notas iguais nas disciplinas nas quais se
 -- matricularam;
 SELECT distinct nomea as Nome FROM alunos
@@ -169,6 +203,7 @@ having count(distinct nota) > 1
 ORDER BY nomea
 
 -- Questão 11
+-- Show the name of students that graded with the same value.
 -- O nome dos alunos que sempre tiram a mesma nota;
 SELECT distinct nomea as Nome FROM alunos
 NATURAL JOIN matriculas
