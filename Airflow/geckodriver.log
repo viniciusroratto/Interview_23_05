@@ -1,0 +1,372 @@
+1653301800176	geckodriver	INFO	Listening on 127.0.0.1:52099
+1653301800859	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofiledomcNd"
+2022-05-23 12:30:07.779 plugin-container[41957:3443213] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:07.779 plugin-container[41957:3443213] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:30:08.592 plugin-container[41957:3443213] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:08.592 plugin-container[41957:3443213] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:30:08.593 plugin-container[41957:3443216] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:08.593 plugin-container[41957:3443216] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1653301819353	geckodriver	INFO	Listening on 127.0.0.1:52143
+1653301820378	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileqoL1sD"
+2022-05-23 12:30:21.044 plugin-container[41974:3443841] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:21.049 plugin-container[41974:3443841] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1653301821051	Marionette	INFO	Marionette enabled
+2022-05-23 12:30:21.068 plugin-container[41974:3443841] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:21.068 plugin-container[41974:3443841] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:30:21.068 plugin-container[41974:3443846] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:30:21.069 plugin-container[41974:3443846] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileqoL1sD/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653301823481	Marionette	INFO	Listening on port 52152
+1653301823715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 2985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 816 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/11407907560464842752/index.html, line 320: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 3531 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1653301892144	geckodriver	INFO	Listening on 127.0.0.1:52358
+1653301893162	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileeio9lw"
+2022-05-23 12:31:33.963 plugin-container[42068:3445839] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:31:33.963 plugin-container[42068:3445839] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:31:33.968 plugin-container[42068:3445839] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:31:33.968 plugin-container[42068:3445839] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:31:33.969 plugin-container[42068:3445844] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:31:33.969 plugin-container[42068:3445844] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1653301893991	Marionette	INFO	Marionette enabled
+[GFX1-]: Managed to allocate after flush.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileeio9lw/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653301898093	Marionette	INFO	Listening on port 52367
+1653301898207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 2561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 143: TypeError: a.g is null
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 320: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 1086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 158: TypeError: this.g is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1653301990492	geckodriver	INFO	Listening on 127.0.0.1:52586
+1653301991511	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile7MwCSk"
+1653301992120	Marionette	INFO	Marionette enabled
+2022-05-23 12:33:12.155 plugin-container[42412:3449487] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:33:12.157 plugin-container[42412:3449487] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:33:12.177 plugin-container[42412:3449487] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:33:12.177 plugin-container[42412:3449487] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:33:12.178 plugin-container[42412:3449507] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:33:12.178 plugin-container[42412:3449507] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 901 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal12884901923/domwalker23, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile7MwCSk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653301997252	Marionette	INFO	Listening on port 52593
+1653301997575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 3635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 320: TypeError: studio.Enabler is undefined
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 161: TypeError: this.g is undefined
+[GFX1-]: Managed to allocate after flush.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 5034 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 316 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 6341 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal12884901933/layout25, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal12884901933/layout25, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653302073001	Marionette	INFO	Stopped listening on port 52152
+[GFX1-]: Managed to allocate after flush.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Managed to allocate after flush.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653302076702	Marionette	INFO	Stopped listening on port 52367
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+1653302079324	Marionette	INFO	Stopped listening on port 52593
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653302109970	geckodriver	INFO	Listening on 127.0.0.1:52852
+1653302110989	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileYYDlYE"
+1653302111690	Marionette	INFO	Marionette enabled
+2022-05-23 12:35:11.724 plugin-container[42935:3454882] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:11.726 plugin-container[42935:3454882] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:35:11.773 plugin-container[42935:3454882] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:11.773 plugin-container[42935:3454882] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:35:11.774 plugin-container[42935:3454880] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:11.774 plugin-container[42935:3454880] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofileYYDlYE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653302114155	Marionette	INFO	Listening on port 52859
+1653302114493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 5736 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 42939, MediaDecoderStateMachine #1] WARNING: 10c1511a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:327
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 295 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 2213 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/8651986063490809856/index.html, line 320: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 4326 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6cqjaYtYR5p4aS5jA8U1PYkQZtxk_S9KNOFLKIL9tps.js line 1 > eval line 6151 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653302145065	geckodriver	INFO	Listening on 127.0.0.1:53041
+1653302145095	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofilerHRaUa"
+1653302145815	Marionette	INFO	Marionette enabled
+2022-05-23 12:35:45.865 plugin-container[42977:3456150] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:45.879 plugin-container[42977:3456150] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:35:45.962 plugin-container[42977:3456150] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:45.962 plugin-container[42977:3456150] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:35:45.963 plugin-container[42977:3456148] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:35:45.963 plugin-container[42977:3456148] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofilerHRaUa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653302149129	Marionette	INFO	Listening on port 53046
+1653302149191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+1653302152885	Marionette	INFO	Stopped listening on port 53046
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: https://s0.2mdn.net/sadbundle/8720366132416173990/index.js, line 2258: TypeError: this.cta is undefined
+JavaScript error: https://s0.2mdn.net/sadbundle/5293264085306032706/index.js, line 2002: TypeError: this.cta is undefined
+JavaScript error: https://s0.2mdn.net/sadbundle/5293264085306032706/index.js, line 2002: TypeError: this.cta is undefined
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1653302355268	geckodriver	INFO	Listening on 127.0.0.1:53636
+1653302356293	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile3lAqpr"
+1653302357102	Marionette	INFO	Marionette enabled
+2022-05-23 12:39:17.209 plugin-container[43956:3464351] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:17.209 plugin-container[43956:3464351] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:39:17.222 plugin-container[43956:3464351] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:17.222 plugin-container[43956:3464351] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:39:17.223 plugin-container[43956:3464385] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:17.223 plugin-container[43956:3464385] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile3lAqpr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653302362849	Marionette	INFO	Listening on port 53643
+1653302363168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+1653302370566	Marionette	INFO	Stopped listening on port 53643
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1653302384501	geckodriver	INFO	Listening on 127.0.0.1:53813
+1653302385526	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile49sHba"
+1653302386248	Marionette	INFO	Marionette enabled
+2022-05-23 12:39:46.259 plugin-container[45027:3467401] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:46.259 plugin-container[45027:3467401] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:39:46.310 plugin-container[45027:3467401] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:46.310 plugin-container[45027:3467401] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-23 12:39:46.314 plugin-container[45027:3467405] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-23 12:39:46.314 plugin-container[45027:3467405] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/v4/1r624sds41vbg2ybskps6y340000gn/T/rust_mozprofile49sHba/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1653302390080	Marionette	INFO	Listening on port 53820
+1653302390199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://gauchazh.clicrbs.com.br/static/vendors-fad58de7366495db4650cfefac2fcd61.96f04106d32bb308db94.min.js, line 2: unreachable code after return statement
+1653302399601	Marionette	INFO	Stopped listening on port 53820
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653311248338	Marionette	INFO	Stopped listening on port 52859
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
