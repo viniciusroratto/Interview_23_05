@@ -9,7 +9,7 @@ This is my go-to language because of its community. It's very difficult to find 
 The only file in the folder is a class I've adapted from a work I did for a small accountancy firm in Malta. They needed multiple data extractions from different websites, and then some table merges and simple cleaning and manipulation.
 
   The class shown here receives the URL for the manipulation, starts the selenium driver (giving the developer some options) and extracts the rows of the table in the website, storing a dataframe in memory and a CSV file in disk. Honestly, most of this project has been done using Functional Programming, because I have worked mostly alone and code maintenance is not a problem I usually have. This is one of the reasons I want to work for bigger companies and bigger data engineering projects.
-
+ This is the first step of the project, later on there are other, more complex websites I had to scrape, so why am I showing you this very basic class? Because it can be extended using polimorfism to call the same functions, but they will scrape the websites and process the data differently. 
 
 ## Data-Cleaning and Manipulation
   Since my previous experience was closer to data analysis, I've taken some courses about data cleaning and manipulation. This folder has the code for the final coursework of the Data Cleaning and Manipulation course in Coursera, it's basically downloading a file and cleaning it based on a set of specifications. It was fun to learn the basics of R,  and every skill I've acquired from the course was then transposed to Python.
