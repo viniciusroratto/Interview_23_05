@@ -23,7 +23,7 @@ The only file in the folder is a class I've adapted from a work I did for a smal
   The third one **(Main.java)** is a simple implementation of a Java application that connects to a database, and makes some queries.
 
 ## Terraform/GCP
-  Honestly, I have no previous experience in the GCP, so I spent most of this weekend clicking around and watching videos and following tutorials. But point and click interfaces are hardly very scalable and give us no space to implement software engineering skills to improve infrastructure. So I went after Terraform, a tool to implement infrastructure as code and followed some GCP tutorials in it. I had used Terraform just a few weeks ago to create some internet usage monitors for a provider called Datadog.
+  Honestly, I have no previous experience in the GCP, so I spent most of this weekend clicking around and watching videos and following tutorials. But point and click interfaces are hardly very scalable and give us no space to use software engineering concepts to improve infrastructure. So I went after Terraform, a tool to implement infrastructure as code and followed some GCP tutorials in it. I had used Terraform just a few weeks ago to create some internet usage monitors for a provider called Datadog.
  
    You can see the basic implementation in the **main.tf** file, and the results in the images I've uploaded. I'm sorry if some of the text is in Portuguese, I'll be happy to translate it to you during the interview! :)
  
